@@ -1,9 +1,16 @@
-.navbar-toggler:hover{
+/* .navbar-toggler:hover{
     border: none;
     border-radius: 5px;
     background-color: rgb(17, 16, 16);
-}
+} */
 .modal-content{
     background: transparent ! important;
     border: none ! important;
+    display: flex !important;
+    flex-direction: row !important;
+    
+}
+.modal-content> *{
+    margin: 20px !important;
+
 }
